@@ -7,24 +7,24 @@ public class barchi_3E_Es06B_BinarioDecimaleMath {
         String numeroBinario = ""; // input
         double numeroDecimale = 0; // output
 
-        // variabili di calcolo
+        // "Calculation variables."
         double carattere = 0;
         double potenza = 1;
         boolean flagBinario = true;
 
         System.out.println("Conversione numero binario in numero decimale\n");
 
-        // Acquisisco numero binario
+        // "acquire a binary number."
         System.out.println("Inserisci un numero binario: ");
         numeroBinario = keyboard.next();
 
-        // sto dentro al ciclo fino a quando non arrivo alla fine del numero
+        // "inside the loop until I reach the end of the number."
         for (int i = numeroBinario.length(); i > 0 && flagBinario; i--) {
 
             carattere = (double)numeroBinario.charAt(i - 1) - 48;
 
-            // Controllo se il carattere é 0 o 1
-            // Se si allora calcolo il numero
+            // "check if the character is 0 or 1."
+            // "If yes, then I calculate the number."
             if (numeroBinario.charAt(i - 1) == '1' || numeroBinario.charAt(i - 1) == '0') {
                 // FORMULA: numeroDecimale = numeroDecimale + (int)char * 2**pow
                 // numeroDecimale = numeroDecimale + carattere * Math.pow(2.0, pow);
@@ -41,7 +41,7 @@ public class barchi_3E_Es06B_BinarioDecimaleMath {
             }
         }
 
-        // se il numero é valido allora stampo il risultato
+        // "If the number is valid, then I print the result."
         if (flagBinario)
             System.out.println(numeroDecimale);
         else
