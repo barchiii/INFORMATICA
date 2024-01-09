@@ -15,16 +15,16 @@ public class barchi_3E_Es06A_BinDec {
         num = keyboard.nextLine();
 
         for (int i = 0; i < num.length(); i++){
-            if (!(num.charAt(i) == '1' || num.charAt(i) == '0')) { // controllo validità dell'input
+            if (!(num.charAt(i) == '1' || num.charAt(i) == '0')) { // "Input validity check."
                 flagByte = false;
             }
 
             else {
                 System.out.println(num.charAt(i));
                 bit = num.charAt(i);
-                position = bit - '0'; // utilizza il codice asci del carattere, se il bit è 1 allora restituisce 1
-                decimal = decimal * 2 + position; // moltiplica ogni volta il decimale per 2 per ogni bit, dando valore alla posizione
-                //System.out.println("decimale :" +decimal); controllo valori temporaneo
+                position = bit - '0'; // "Use the ASCII code of the character; if the bit is 1, it returns 1."
+                decimal = decimal * 2 + position; // "Multiply the decimal by 2 for each bit, assigning value to the position."
+                //System.out.println("decimale :" +decimal); "Temporary value check."
             }
         }
 
