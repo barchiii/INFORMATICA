@@ -25,7 +25,7 @@ public class barchi_3E_Es05A_Byte {
                 System.out.println("E' un Byte");
             else
                 System.out.println("Non è un Byte");
-        }// fine else
+        }//end
 
 
         System.out.println("Fine programma");
