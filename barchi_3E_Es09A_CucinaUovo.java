@@ -7,9 +7,9 @@ public class barchi_3E_Es09A_CucinaUovo {
         System.out.println("|Mettiamo l'uovo nella pentola d'acqua|");
         System.out.println("|_____________________________________|");
 
-        //Uovo nella pentola d'acqua
+        //"An egg in the pot of water."
         InserisciUovo();
-        ClrScr();//cancella l'output per garantire maggiore pulizia
+        ClrScr();//"Clear the output for a cleaner display."
         System.out.println("|¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬|");
         System.out.println("                          \n" +
                 "                ████      \n" +
@@ -25,12 +25,12 @@ public class barchi_3E_Es09A_CucinaUovo {
         System.out.println("Ottimo hai messo l'uovo nella pentola \n" +
                 "ora aspetta 3 minuti che si cuoca ");
         System.out.println("|¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬|");
-        UovoPronto(); //Passano i 3 minuti di cottura dell'uovo
-        // Uovo si sta cucinando, ora è pronto
+        UovoPronto(); //"The 3 minutes for boiling the egg have passed."
+        // "The egg is cooking; now it's ready."
         ClrScr();
         System.out.println("Sono passati 3 minuti!\n" +
                 "L'uovo è finalmente pronto");
-        Mangia();//Lo chef mangia l'uovo preparato
+        Mangia();//"The chef eats the prepared egg."
         System.out.println("|________________________________|");
         System.out.println("|              CUOCO             |");
         System.out.println("|Finalmente è l'ora dell'assaggio|");
