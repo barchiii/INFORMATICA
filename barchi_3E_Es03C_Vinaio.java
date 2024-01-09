@@ -1,8 +1,14 @@
-// Programma che chiede quanti bottiglioni acquistare
-// ne calcola il costo
-// calcola l'iva
-// calcola il costo finale
-// restituendo lo scontrino dell'acquisto.
+/* Programma che chiede quanti bottiglioni acquistare
+ ne calcola il costo
+ calcola l'iva
+ calcola il costo finale
+ restituendo lo scontrino dell'acquisto. */
+
+/* Program that asks how many large bottles to purchase,
+ * calculates the cost,
+ * calculates the VAT (Value Added Tax),
+ * calculates the final cost,
+ * and returns the purchase receipt. */
 
 import java.util.Scanner;
 public class barchi_3E_Es03C_Vinaio {
@@ -19,7 +25,7 @@ public class barchi_3E_Es03C_Vinaio {
         double costoB = 1.5;
         double costoL = 2;
         double costoM = 1;
-        String risposta = ""; //inizializzo una stringa vuota
+        String risposta = "";
         int clienti = 0;
 
         do
@@ -37,7 +43,7 @@ public class barchi_3E_Es03C_Vinaio {
                     System.out.println("Quanti bottiglioni di Barbera vuoi acquistare?");
                     bottiglioni = keyboard.nextInt();
 
-                } while (bottiglioni <= 0); //controllo inserimento valore bottiglini
+                } while (bottiglioni <= 0); //"Bottle quantity input validation."
                 costoTot = bottiglioni * capacita * costoB;
                 iva = costoTot * 0.21;
                 totP = costoTot + iva;
@@ -60,7 +66,7 @@ public class barchi_3E_Es03C_Vinaio {
                     System.out.println("Quanti bottiglioni di Lugana vuoi acquistare?");
                     bottiglioni = keyboard.nextInt();
 
-                } while (bottiglioni <= 0); //controllo inserimento valore bottiglini
+                } while (bottiglioni <= 0);
                 costoTot = bottiglioni * capacita * costoL;
                 iva = costoTot * 0.21;
                 totP = costoTot + iva;
@@ -83,7 +89,7 @@ public class barchi_3E_Es03C_Vinaio {
                     System.out.println("Quanti bottiglioni di Merlot vuoi acquistare?");
                     bottiglioni = keyboard.nextInt();
 
-                } while (bottiglioni <= 0); //controllo inserimento valore bottiglini
+                } while (bottiglioni <= 0);
                 costoTot = bottiglioni * capacita * costoM;
                 iva = costoTot * 0.21;
                 totP = costoTot + iva;
@@ -101,8 +107,8 @@ public class barchi_3E_Es03C_Vinaio {
             }
 
             System.out.println("C'è un altro cliente? (S/N)");
-            risposta = keyboard.nextLine().toUpperCase();//cosi svuota i dati precedenti
-            risposta = keyboard.nextLine().toUpperCase();//sennò si scrive solo next
+            risposta = keyboard.nextLine().toUpperCase();
+            risposta = keyboard.nextLine().toUpperCase();
 
             System.out.println("------------------------");
             System.out.println("Il prezzo finale è: " + tot);
