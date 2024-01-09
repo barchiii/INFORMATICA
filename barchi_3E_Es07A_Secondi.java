@@ -6,6 +6,15 @@
    102(secondi) = 0(ore):1(minuto):42(secondi);
    Esempio 2:
    6662(secondi) = 1(ora):51(minuti):2(secondi) */
+
+/* Enter an integer representing the seconds elapsed since the beginning of today 
+   and display the current time in the format hh:mm:ss (hours:minutes:seconds).
+   If the user enters a null value or a value greater than a day, ask for re-entry.
+   Example 1:
+   102(seconds) = 0(hours):1(minute):42(seconds);
+   Example 2:
+   6662(seconds) = 1(hour):51(minutes):2(seconds) */
+
 import java.util.Scanner;
 public class barchi_3E_Es07A_Secondi {
     public static void main(String[] args) {
