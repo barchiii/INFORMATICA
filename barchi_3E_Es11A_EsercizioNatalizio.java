@@ -18,7 +18,7 @@ public class barchi_3E_Es11A_EsercizioNatalizio {
         final int alcoliche = 4;*/
 
         do {
-            //Scelta del lavoro in input
+            //"Selection of the job as input."
             System.out.println("Benvenuto! Cosa vuoi fare?");
             System.out.println("1. Cuocere uova di Natale");
             System.out.println("2. Pagare il conto");
@@ -32,7 +32,7 @@ public class barchi_3E_Es11A_EsercizioNatalizio {
 
                     while (other.equals("sì")) {
                         uovaNat++;
-                        incasso = incasso + 1.5; // supponiamo un costo di 1.5 euro per uovo
+                        incasso = incasso + 1.5; // "Assuming a cost of 1.5 euros per egg."
                         System.out.println("Vuoi cuocere un'altra uova? (sì/no)");
                         other = kb.next();
                     }
