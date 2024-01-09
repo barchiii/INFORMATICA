@@ -1,4 +1,4 @@
-//Cronometro fino a 60 min
+//"Timer up to 60 minutes."
 
 import java.util.Scanner;
 
