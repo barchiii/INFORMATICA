@@ -2,6 +2,7 @@ import java.util.Random;
 public class barchi_3E_Es12A_FrequenzaRotazioneDado {
     public static void main(String[] args) {
         int n, i;
+        
         int[] frequenza = new int[6];
 
         for (i = 0; i < 100; i++) {
@@ -20,7 +21,7 @@ public class barchi_3E_Es12A_FrequenzaRotazioneDado {
             System.out.printf("Faccia %d: %d\n", i + 1, frequenza[i]);
         }
     }
-
+    
     private static int ValoreRandom(int minValue, int maxValue)
     {
         Random casuale = new Random(); //Metodo che non ha nessun parametro, si chiama costruttore.
