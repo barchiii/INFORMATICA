@@ -8,7 +8,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class barchi_3E_Es014A_GaraDati {
+public class barchi_3E_Es14A_GaraDati {
     public static void main(String[] args)
 
     {
