@@ -84,7 +84,7 @@ public class barchi_3E_Es14A_GaraDati {
         }
     }
 
-    private static void Vincitore(int dado1, int dado2, int caso)
+    private static void Vincitore(int d1, int d2, int caso)
     {
 
         if (d1>d2)
