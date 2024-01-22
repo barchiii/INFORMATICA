@@ -7,23 +7,20 @@
 
 import java.util.Scanner;
 import java.util.Random;
-
 public class barchi_3E_Es14A_GaraDati {
     public static void main(String[] args)
-
     {
         //variables declaration
         int d1, d2, caso;
         int scelta;
         boolean exit = true;
-        Scanner scanner = new Scanner(System.in);
+        Scanner kb = new Scanner(System.in);
 
         //repeat until the user press 3
         do {
             ClrScr();
             Menu();
-
-            scelta = scanner.nextInt(); //
+            scelta = kb.nextInt();
 
             switch (scelta) { // swich case
                 case 1:
@@ -60,12 +57,8 @@ public class barchi_3E_Es14A_GaraDati {
                     System.out.println("Scelta errata ");
                     Wait(300);
                 }
-
             }
-
         }while (exit);
-
-
     }
 
     private static int estraiDado()
@@ -94,10 +87,10 @@ public class barchi_3E_Es14A_GaraDati {
     private static void Vincitore(int dado1, int dado2, int caso)
     {
 
-        if (dado1>dado2)
+        if (d1>d2)
             System.out.println("\nHa vinto G1");
 
-        else if (dado1==dado2)
+        else if (d1==d2)
             System.out.println("\nPareggio");
 
         else
