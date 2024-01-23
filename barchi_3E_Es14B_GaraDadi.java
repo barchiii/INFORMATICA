@@ -67,9 +67,7 @@ public class barchi_3E_Es14B_GaraDadi {
                     System.out.println("Scelta errata");
                     Wait(200);
                 }
-
             }
-
         }while (exit);
     }
 
