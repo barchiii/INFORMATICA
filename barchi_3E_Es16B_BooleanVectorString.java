@@ -11,6 +11,7 @@ public class barchi_3E_Es16B_BooleanVectorString {
         int i;
         char character;
 
+        // make the whole array false
         for (i = 0; i < check.length; i++) {
             check[i] = false;
         }
