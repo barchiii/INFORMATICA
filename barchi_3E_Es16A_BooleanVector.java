@@ -40,7 +40,7 @@ public class barchi_3E_Es16A_BooleanVector {
 
         // output of the entered characters
         System.out.println("\nI caratteri inseriti sono: ");
-        for (int enteredVal = 0; enteredVal < val.length; enteredVal++) {
+        for (int enteredVal = 0; enteredVal < val.length; enteredVal++) { // entered value
             if (val[enteredVal]) { // if it's true
                 System.out.printf("%s - ", alphabet[enteredVal]);
             }
@@ -48,7 +48,7 @@ public class barchi_3E_Es16A_BooleanVector {
 
         // output of the not-entered characters
         System.out.println("\nI caratteri non inseriti sono: ");
-        for (int nEnteredVal = 0; nEnteredVal < val.length; nEnteredVal++) {
+        for (int nEnteredVal = 0; nEnteredVal < val.length; nEnteredVal++) { // non-entered value
             if (!val[nEnteredVal]) { // if it's false
                 System.out.printf("%s - ", alphabet[nEnteredVal]);
             }
